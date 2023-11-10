@@ -17,10 +17,10 @@ palette:
   - << meta.yml:palette-bottom
 
 features:
-  slabs:
-    - SNOW_LAYERS
   trees:
     - TRUBXMASTREE
+  slabs:
+    - SNOW_LAYERS
   preprocessors:
     - ICE_COASTLINE
     - POWDER_SNOW_DEPOSITS

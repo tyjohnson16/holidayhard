@@ -45,13 +45,13 @@ biomes:
         # ---
         # Assign zones for volcanic biomes
         # - Comment the following line to disable volcano generation.
-        - << biome-providers/stages/add_volcanic_zones.yml:stages
+        # - << biome-providers/stages/add_volcanic_zones.yml:stages
         # ---
   
         # ---
         # Add mushroom islands
         # - Comment the following line to disable mushroom island generation
-        - << biome-providers/stages/add_mushroom_islands.yml:stages
+        # - << biome-providers/stages/add_mushroom_islands.yml:stages
         # ---
   
         # ---
@@ -74,7 +74,7 @@ biomes:
         # Replace volcanic biomes with variants
         # - This will do nothing if volcanoes have been disabled above
         #   and should also be commented out if you've disabled them.
-        - << biome-providers/stages/add_volcanic_variations.yml:stages
+        #- << biome-providers/stages/add_volcanic_variations.yml:stages
         # ---
   
         # ---

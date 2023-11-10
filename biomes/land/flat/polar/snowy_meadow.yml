@@ -20,11 +20,11 @@ features:
   landforms:
     - BOULDERS
     - SMALL_BOULDER_PATCHES
-  slabs:
-    - SNOW_LAYERS
   trees:
     - SPARSE_SPRUCE_TREES
     - TRUBXMASTREE
+  slabs:
+    - SNOW_LAYERS
   preprocessors:
     - POWDER_SNOW_DEPOSITS
   postprocessors:

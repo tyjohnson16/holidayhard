@@ -26,6 +26,9 @@ slant:
 features:
   slabs:
     - SNOW_LAYERS
+  trees:
+    - SPARSE_SPRUCE_TREES
+    - TRUBXMASTREE
   preprocessors:
     - ICE_COASTLINE
   postprocessors:

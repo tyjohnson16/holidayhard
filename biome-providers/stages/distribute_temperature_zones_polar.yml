@@ -9,7 +9,7 @@
 temperature-map: &temperature-map
   dimensions: 2
   type: CONSTANT
-
+ 
 stages:
   - type: REPLACE_LIST
     sampler: *temperature-map
