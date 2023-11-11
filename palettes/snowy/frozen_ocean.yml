@@ -3,7 +3,6 @@ type: PALETTE
 
 layers:
   - materials:
-      - minecraft:water: 1
       - minecraft:ice: 6
     layers: 1
     sampler:

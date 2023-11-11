@@ -9,4 +9,4 @@ ocean:
 
 features:
   landforms: 
-    - BIGLOO
+    - BIGLOO_SPARSE

@@ -1,4 +1,4 @@
-id: BIGLOO
+id: ICEBALL
 type: FEATURE
 
 distributor:
@@ -6,24 +6,24 @@ distributor:
   distributors:
     - type: PADDED_GRID
       width: 23
-      padding: 3
-      salt: 1923
+      padding: 30
+      salt: 1
     - type: SAMPLER
       sampler:
         type: PROBABILITY
         sampler:
           type: OPEN_SIMPLEX_2
-          salt: 1000
+          salt: 100
           frequency: 0.01
       threshold: 0.2
 
 locator:
   type: SURFACE
   range:
-    min: 63
-    max: 64
+    min: 10
+    max: 45
 
 structures:
   distribution:
     type: CONSTANT
-  structures: bigloo
+  structures: iceball
