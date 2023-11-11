@@ -10,6 +10,7 @@ ocean:
 features:
   landforms: 
     - ICEBERGS
+    - BIGLOO
   slabs:
     - ICEBERG_SNOW_LAYERS
   preprocessors:

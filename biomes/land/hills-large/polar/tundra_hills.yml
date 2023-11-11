@@ -6,4 +6,4 @@ color: $biomes/colors.yml:TUNDRA_HILLS
 features:
   trees:
     - TRUBXMASTREE
-    - SPRUCE_TREE_PATCHES
+    - SPRUCE_TREES

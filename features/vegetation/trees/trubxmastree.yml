@@ -1,10 +1,12 @@
 id: TRUBXMASTREE
 type: FEATURE
+
 distributor:
   type: PADDED_GRID
-  width: 11
-  padding: 2
-  salt: 9591
+  width: 8
+  padding: 3
+  salt: 501
+
 locator:
   type: AND
   locators:
@@ -17,7 +19,7 @@ locator:
       pattern:
         type: MATCH_SET
         blocks: $features/vegetation/meta.yml:plantable-blocks
-        offset: -2
+        offset: -1
     - type: PATTERN
       range: *range
       pattern:
@@ -25,7 +27,8 @@ locator:
         blocks:
           - minecraft:snow
           - minecraft:air
-        offset: -1
+        offset: 0
+
 structures:
   distribution:
     type: CONSTANT

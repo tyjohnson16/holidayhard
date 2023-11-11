@@ -6,3 +6,7 @@ color: $biomes/colors.yml:FROZEN_DEEP_OCEAN
 
 ocean:
   palette: FROZEN_OCEAN
+
+features:
+  landforms: 
+    - BIGLOO

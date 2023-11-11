@@ -44,4 +44,5 @@ features:
     - GRASS
     - FERNS
   trees:
+    - TRUBXMASTREE
     - SPRUCE_TREES

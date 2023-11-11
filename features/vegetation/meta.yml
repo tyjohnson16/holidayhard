@@ -6,7 +6,7 @@ plantable-blocks:
   - minecraft:coarse_dirt
   - minecraft:moss_block
   - minecraft:rooted_dirt
-
+  - minecraft:snow_block
 aquatic-plantable-blocks:
   - minecraft:mud
   - minecraft:sand

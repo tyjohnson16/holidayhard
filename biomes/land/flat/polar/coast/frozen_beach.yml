@@ -17,6 +17,8 @@ palette:
   - << meta.yml:palette-bottom
 
 features:
+  trees: 
+    - TRUBXMASTREE
   slabs:
     - SNOW_LAYERS
   preprocessors:

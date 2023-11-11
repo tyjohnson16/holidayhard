@@ -21,7 +21,7 @@ features:
     - BOULDERS
     - SMALL_BOULDER_PATCHES
   trees:
-    - SPARSE_SPRUCE_TREES
+    - SPRUCE_TREES
     - TRUBXMASTREE
   slabs:
     - SNOW_LAYERS
