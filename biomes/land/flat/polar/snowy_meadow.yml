@@ -21,9 +21,7 @@ features:
     - BOULDERS
     - SMALL_BOULDER_PATCHES
   trees:
-    - SPRUCE_TREES
     - TRUBXMASTREE
-    - GREAT_AZALEA_TREES
   slabs:
     - SNOW_LAYERS
   preprocessors:

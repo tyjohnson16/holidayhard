@@ -1,11 +1,11 @@
-id: TRUBXMASTREE
+id: XMASCREEPER
 type: FEATURE
 
 distributor:
   type: PADDED_GRID
-  width: 8
+  width: 10
   padding: 3
-  salt: 501
+  salt: 253
 
 locator:
   type: AND
@@ -31,11 +31,5 @@ locator:
 
 structures:
   distribution:
-    type: WHITE_NOISE
-    salt: 511
-  structures:
-    - trubxmastree: 10
-    - giant_redwood: 5
-    - spruce_tree_procedural: 5
-    - xmascandycane: 1
-    - xmascreeper: 1
+    type: CONSTANT
+  structures: xmascreeper

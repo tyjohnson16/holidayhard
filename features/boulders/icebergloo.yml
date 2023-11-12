@@ -1,4 +1,4 @@
-id: ICEBERGS
+id: ICEBERGLOO
 type: FEATURE
 
 distributor:
@@ -18,20 +18,17 @@ distributor:
       threshold: 0.2
 
 locator:
-  type: PATTERN
+  type: SURFACE
   range:
     min: 63
-    max: 65
-  pattern:
-    type: MATCH
-    block: minecraft:water
-    offset: 0
+    max: 64
 
 structures:
   distribution:
     type: WHITE_NOISE
-    salt: 5011
+    salt: 511
   structures:
-    - iceberg: 20
+    - iceberg: 10
+    - xmascandycane: 1
     - icebergloo: 1
-
+  

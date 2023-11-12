@@ -38,10 +38,9 @@ locator:
           - minecraft:dirt
         offset: -3
 
-
 structures:
   distribution:
     type: CONSTANT
   structures:
     - ice_spike: 1
-  
+    
