@@ -34,7 +34,7 @@ stages:
   
       coast-mountains-small:
         - coast-mountains-small-polar: 1
-  
+   
       coast-mountains-large:
         - coast-mountains-large-polar: 1
   

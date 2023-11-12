@@ -208,9 +208,9 @@ stages:
       mountains-small-polar:
         - SNOWY_PLAINS: 2
         - TUNDRA_MIDLANDS: 2
-      #  - SNOWY_MOUNTAINS: 1
+        - SNOWY_MOUNTAINS: 1
       #  - SNOWY_ERODED_TERRACED_MOUNTAINS: 1
       
       mountains-large-polar:
-        - SNOWY_MEADOW: 1
-      #  - SNOWY_TERRACED_MOUNTAINS: 1
+        - SNOWY_MOUNTAINS: 1
+        - SNOWY_TERRACED_MOUNTAINS: 1

@@ -4,12 +4,12 @@ num pi = 3.14159;
 num twopi = 6.28318530718;
 
 num trunkHeight = 4+randomInt(4);
-str trunkBlock = "minecraft:dark_oak_log";
-str rootBlock = "minecraft:dark_oak_wood";
+str trunkBlock = "minecraft:mangrove_log";
+str rootBlock = "minecraft:mangrove_roots";
 
 num sideBranchInterval = 3+randomInt(2);
 num sideBranchMinHeight = 3+randomInt(3);
-num sideBranchLengthMin = 4+randomInt(3);
+num sideBranchLengthMin = 4+randomInt(3); 
 num sideBranchLengthVariation = 2;
 num sideBranchVerticalVariation = 0;
 num sideBranchVerticalDirection = 0.3+randomInt(randPrecision)/randPrecision/2;
@@ -18,10 +18,10 @@ num sideBranchLeafTranslate = 0;
 num sideBranchLeafTopFlatness = 2;
 num sideBranchLeafBottomFlatness = 0.5;
 num sideBranchLeafDensity = 0.5;
-str sideBranchLeafStructure = "dark_oak_leaves_clump";
-str sideBranchBlockX = "minecraft:dark_oak_log[axis=x]";
-str sideBranchBlockY = "minecraft:dark_oak_log[axis=y]";
-str sideBranchBlockZ = "minecraft:dark_oak_log[axis=z]";
+str sideBranchLeafStructure = "mangrove_leaves_clump";
+str sideBranchBlockX = "minecraft:mangrove_log[axis=x]";
+str sideBranchBlockY = "minecraft:mangrove_log[axis=y]";
+str sideBranchBlockZ = "minecraft:mangrove_log[axis=z]";
 
 num topBranches = 2+randomInt(2);
 num topBranchLengthUpwardsMin = 7+randomInt(3);
@@ -32,10 +32,10 @@ num topBranchLeafTranslate = 0;
 num topBranchLeafTopFlatness = 2;
 num topBranchLeafBottomFlatness = 1;
 num topBranchLeafDensity = 0.5;
-str topBranchLeafStructure = "dark_oak_leaves_clump";
-str topBranchBlockX = "minecraft:dark_oak_log[axis=x]";
-str topBranchBlockY = "minecraft:dark_oak_log[axis=y]";
-str topBranchBlockZ = "minecraft:dark_oak_log[axis=z]";
+str topBranchLeafStructure = "mangrove_leaves_clump";
+str topBranchBlockX = "minecraft:mangrove_log[axis=x]";
+str topBranchBlockY = "minecraft:mangrove_log[axis=y]";
+str topBranchBlockZ = "minecraft:mangrove_log[axis=z]";
 
 num sporeBlossomX = 0;
 num sporeBlossomY = 0;
