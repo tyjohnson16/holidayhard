@@ -19,6 +19,7 @@ palette:
 features:
   trees:
     - TRUBXMASTREE
+    - GIANT_REDWOODS
   slabs:
     - SNOW_LAYERS
   preprocessors:
