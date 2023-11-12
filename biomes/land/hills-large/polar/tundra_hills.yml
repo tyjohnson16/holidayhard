@@ -5,5 +5,5 @@ color: $biomes/colors.yml:TUNDRA_HILLS
 
 features:
   trees:
+    - GREAT_AZALEA_TREES
     - TRUBXMASTREE
-    

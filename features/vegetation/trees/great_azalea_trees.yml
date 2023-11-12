@@ -3,19 +3,19 @@ type: FEATURE
 
 distributor:
   type: PADDED_GRID
-  width: 30
-  padding: 80
-  salt: 5132
+  width: 20
+  padding: 50
+  salt: 2000
 
 locator:
   type: AND
   locators:
     - type: TOP
       range:
-        min: 0
-        max: 50
+        min: 63
+        max: 200
 
 structures:
   distribution:
     type: CONSTANT
-  structures: place_great_azalea_tree_underground
+  structures: great_azalea_tree
