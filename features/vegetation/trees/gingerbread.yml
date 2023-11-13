@@ -1,4 +1,4 @@
-id: TRUBXMASTREE
+id: GINGERBREAD
 type: FEATURE
 
 distributor:
@@ -34,9 +34,4 @@ structures:
     type: WHITE_NOISE
     salt: 511
   structures:
-    - trubxmastree: 20
-    - giant_redwood: 10
-    - spruce_tree_procedural: 15
-    - xmascandycane: 3
-    - xmascreeper: 2
     - GingerbreadHouse2: 1

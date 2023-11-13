@@ -1,0 +1,25 @@
+id: SNOWGLOBE
+type: FEATURE
+
+distributor:
+  type: PADDED_GRID
+  width: 12
+  padding: 3
+  salt: 501
+
+locator:
+  type: PATTERN
+  range:
+    min: 63
+    max: 65
+  pattern:
+    type: MATCH
+    block: minecraft:water
+    offset: 0
+
+structures:
+  distribution:
+    type: WHITE_NOISE
+    salt: 511
+  structures:
+    - snowglobe: 1

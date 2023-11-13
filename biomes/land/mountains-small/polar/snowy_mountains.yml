@@ -23,6 +23,8 @@ features:
   slabs:
     - STONE_SLABS
     - SNOW_LAYERS
+  trees:
+    - CABIN
   preprocessors:
     - POWDER_SNOW_DEPOSITS
     - ICE_COASTLINE

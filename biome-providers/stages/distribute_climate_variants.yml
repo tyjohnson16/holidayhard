@@ -200,13 +200,13 @@ stages:
         - ICE_SPIKES: 2
       
       hills-small-polar:
-        - TUNDRA_MIDLANDS: 1
+        - TUNDRA_MIDLANDS: 2
+        - SNOWY_PLAINS: 1
       
       hills-large-polar:
         - TUNDRA_HILLS: 1
       
       mountains-small-polar:
-        - SNOWY_PLAINS: 2
         - TUNDRA_MIDLANDS: 2
         - SNOWY_MOUNTAINS: 1
       #  - SNOWY_ERODED_TERRACED_MOUNTAINS: 1
