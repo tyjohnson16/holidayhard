@@ -21,11 +21,11 @@ stages:
       - coast-hills-small: 5
       - coast-hills-large: 4
       - coast-mountains-small: 3
-#      - coast-mountains-large: 6
+      - coast-mountains-large: 1
     to:
       land:
         - flat: 6
         - hills-small: 3
         - hills-large: 2
         - mountains-small: 3
-#        - mountains-large: 6
+        - mountains-large: 2
