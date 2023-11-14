@@ -2,7 +2,7 @@ num randPrecision = 100;
 num goldenAngle = 2.39996;
 num pi = 3.14159;
 
-num trunkHeight = 40+randomInt(10);
+num trunkHeight = 40+randomInt(25);
 num trunkStartRadius = 2.5;
 num trunkMidRadius = 1.5;
 num trunkMidPoint = 0.1+randomInt(randPrecision)/randPrecision*0.2;
