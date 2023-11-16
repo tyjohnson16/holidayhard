@@ -24,7 +24,6 @@ slant-depth: 1
 features:
   trees:
     - ICE_SPIKES
-    - TRUBXMASTREE
   preprocessors:
     - ICE_COASTLINE
   postprocessors:

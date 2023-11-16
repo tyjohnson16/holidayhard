@@ -20,7 +20,7 @@ distributor:
 locator:
   type: PATTERN
   range:
-    min: 63
+    min: 62
     max: 65
   pattern:
     type: MATCH
@@ -34,5 +34,5 @@ structures:
   structures:
     - iceberg: 40
     - icebergloo: 6
-    - snowglobe: 3
+    - snowglobe: 2
 

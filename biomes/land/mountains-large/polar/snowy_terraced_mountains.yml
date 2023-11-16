@@ -2,3 +2,7 @@ id: SNOWY_TERRACED_MOUNTAINS
 type: BIOME
 extends: [ EQ_TERRACED_MOUNTAINS, SNOWY_MOUNTAINS ]
 color: $biomes/colors.yml:SNOWY_TERRACED_MOUNTAINS
+
+features:
+  trees:
+    - ICE_SPIKES

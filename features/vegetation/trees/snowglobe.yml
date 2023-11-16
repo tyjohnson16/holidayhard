@@ -10,7 +10,7 @@ distributor:
 locator:
   type: PATTERN
   range:
-    min: 63
+    min: 61
     max: 65
   pattern:
     type: MATCH

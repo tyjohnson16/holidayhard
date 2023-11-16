@@ -23,6 +23,8 @@ features:
   slabs:
     - STONE_SLABS
     - SNOW_LAYERS
+  landforms:
+    - SMALL_BOULDER_BONUS
   trees:
     - CABIN
   preprocessors:

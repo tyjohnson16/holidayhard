@@ -5,8 +5,8 @@ distributor:
   type: AND
   distributors:
     - type: PADDED_GRID
-      width: 3
-      padding: 5
+      width: 5
+      padding: 8
       salt: 1923
     - type: SAMPLER
       sampler:
@@ -28,7 +28,8 @@ structures:
     type: WHITE_NOISE
     salt: 511
   structures:
-    - iceberg: 10
-    - xmascandycane: 1
-    - icebergloo: 1
+    - iceberg: 30
+    - xmascandycane: 4
+    - icebergloo: 4
+    - snowglobe: 1
   
