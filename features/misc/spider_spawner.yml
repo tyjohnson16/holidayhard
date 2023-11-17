@@ -7,13 +7,13 @@ distributor:
     - type: PADDED_GRID
       width: 10
       padding: 200
-      salt: 2274
+      salt: 2502
     - type: SAMPLER
       sampler:
         type: PROBABILITY
         sampler:
           type: OPEN_SIMPLEX_2
-          salt: 9333
+          salt: 8403
           frequency: 0.0416667
       threshold: 1
 
@@ -41,4 +41,5 @@ locator:
 structures:
   distribution:
     type: CONSTANT
-  structures: spiderspawner
+  structures: realspiderspawner
+
