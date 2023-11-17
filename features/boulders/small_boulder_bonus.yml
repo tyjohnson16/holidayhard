@@ -13,14 +13,14 @@ distributor:
         type: PROBABILITY
         sampler:
           type: OPEN_SIMPLEX_2
-          salt: 138
-          frequency: 0.5
+          salt: 5000
+          frequency: 0.1
       threshold: 0.2
 
 locator:
   type: SURFACE
   range:
-    min: 90
+    min: 100
     max: 300
 
 structures:

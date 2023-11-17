@@ -6,3 +6,4 @@ color: $biomes/colors.yml:SNOWY_TERRACED_MOUNTAINS
 features:
   trees:
     - ICE_SPIKES
+    - GIANT_REDWOODS

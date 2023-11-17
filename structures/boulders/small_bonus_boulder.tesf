@@ -24,8 +24,7 @@ for (num x = -radius-warp; x < radius+warp; x = x + 1) {
                                 warpFreq*(z+originZ()));
             if (pow(x+warpX,2)+pow((y+warpY)*squish,2)+pow(z+warpZ,2) < radiusSquared) {
                 block(x, y+yTranslate, z,"minecraft:stone", false);
-            if (x == 0 && y== 0 && z== 0) 
-                block(x, y+yTranslate, z,"minecraft:diamond_ore", false);
+                if ((x > -1) && (x > 1) && ((y+yTranslate) > -1) && ((y+yTranslate) < 1)  && (z < 1) && (z > -1 )) {block(x, y+yTranslate, z,"minecraft:diamond_ore");}
             }
 
         }
